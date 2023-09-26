@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+body{
+    margin: 0;
+    background-color: rgba(216, 216, 216, 1);
+    font-family: 'Roboto', sans-serif;
+    scrollbar-width: none; 
+}
+body::-webkit-scrollbar { /* webkit */
+    width: 0;
+    height: 0;
+}
+
+
+.title_profile_navbar_block{
+    min-width: 320px;
+    max-width: 320px;
+    
+    background-color: rgb(255, 255, 255);
+
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    overflow-x: hidden;
+}
+.profile_block hr{
+    width: 230px;
+    size: 36px;
+    margin-top: 120px;
+    position: absolute;   
+}
+
+
+.title_block{
+    width: auto;
+    height: 100px;
+    align-items: center;
+    
+}
+.title_block p{
+    font-size: 28px;
+    font-weight: 540;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    
+}
+.title_block h1{
+    padding-top: 70px;
+    font-weight: 540;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+   
+}
+.profile_block{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.profile_block img{
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    
+}
+.profile_block p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px;
+   
+}
+
+.navbar_block{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.navbar_block li {
+    list-style-type: none;
+    padding: 5px;  
+}
+.navbar_block a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_button{
+    border-style: none;
+    padding: 12px;
+    font-size: 15px;
+    
+    background-color: white; 
+}
+.button1{
+    border-style: none;
+    padding: 12px;
+    font-size: 15px;
+   
+    background-color: white;
+}
+.navbar_button:hover  {
+    background-color: rgba(57, 56, 56, 0.734);
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px black;
+    color: white;
+}
+.navbar_block hr{
+    margin: 0;
+    color: black;
+}
+.navbar_block a{
+    text-decoration: none;
+}
+.header_block{
+    width: auto;
+    height: 50px;
+    background-color: white;
+    margin-left: 320px;
+    display: flex;
+    flex-direction: row-reverse;
+   
+   
+}
+
+.search{
+    position: absolute;
+    
+    
+}    
+.search:hover .settings_focus{
+    display: block;
+}
+
+.icon_settings{
+    background: url(/glavnaya/image/настройки.png)center/contain no-repeat;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    float: right;
+}
+
+.icon_settings:hover { 
+    background: url(/glavnaya/image/настройки2.png) center/contain no-repeat;
+    
+}   
+
+.settings_focus{
+    width: 150px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px;
+    display: none;
+}
+.settings_focus ul{
+    width: auto;
+    list-style-type: none;
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.settings_focus li{
+    padding: 10px;
+    
+}
+.main_table{
+    width: 1430px;
+    height: 600px;
+    background-color: white;
+    margin-left: 420px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    box-shadow: 1px 1px 30px rgba(34, 34, 34, 0.65);
+}
+.table{
+    width: 1350px;
+    height: 520px;
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+.table,tr,th{
+    border: 0;
+}
+.table tr{
+    height: 64px;
+   
+    font-size: 15px;
+
+}
+.table th{
+    padding: 0;
+}
+
+.table-line-1{
+    background-color: black;
+}
+.table-line-1 th{
+    color: white;
+    font-size: 15px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.th1-width{
+    width: 120px;
+}
+.settings_focus a:hover{
+    border-radius:3px;
+    background-color: rgba(73, 73, 73, 0.63);;
+    color:rgba(255, 255, 255, 0.73);;
+}
+.settings_focus a{
+    font-size:15px;
+    color:inherit;
+}

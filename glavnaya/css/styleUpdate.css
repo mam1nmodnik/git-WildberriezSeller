@@ -1,0 +1,96 @@
+  
+  body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scrollbar-width: none; 
+}
+  
+  body::-webkit-scrollbar { /* webkit */
+    width: 0;
+    height: 0;
+}
+  #blablabla {
+
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+#blablabla.open {
+  display: block;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 17, 0.5);
+  transition: all 0.5s ease;
+
+}
+
+.popup_open {
+  display: block;
+}
+
+.popup__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+  max-width: 588px;
+  width: 100%;
+}
+
+.popup__wrapper {
+  padding: 40px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.form-table-editor-flex{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 10px 20px;
+
+
+}
+.form-table-editor-flex input{
+    background-color: black;
+    color: white;
+    border-radius:5px;
+    border: 2px solid white;
+    font-size:15px;
+    height: 20px;
+    padding: 5px;
+}
+.form-table-editor-flex p{
+    margin-bottom:2px;
+}
+.form-table-editor-flex-arrow{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-table-editor-flex-arrow img{
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+    position:relative;
+    left:15px;
+}
+.form-table-editor-flex-arrow h3{
+    position:relative;
+    right:35px;
+}
+

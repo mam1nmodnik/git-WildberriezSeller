@@ -1,0 +1,116 @@
+.form_auth_block{
+    width: 400px;
+    height: 100%;
+    margin: 6% auto;
+    background-color: rgba(255, 255, 255, 0.879);
+    background-size: cover;
+    border-radius: 5em;
+    box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.486);
+    padding: 50px;
+  }
+
+.form_auth_block_head_text{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    opacity: 0.9;
+  }
+
+.input_ds {
+    display: block;
+    margin: 15px auto 10px auto;
+    width:200px;
+    padding: 0 30px 0 30px ;
+    height: 50px;
+    border-radius: 5em;  
+    border:none;
+    outline: none;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.486);
+    font-size: 15px;
+  }
+.input_ds:hover{
+    border: 2px solid #000000a0;
+    height: 46px;
+    box-shadow: none;
+  }
+.input_file{
+  border: none;
+  display: block;
+  margin: 15px auto 10px auto;
+ 
+}
+
+.form_auth_button{
+    display: block;
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 5em;
+    padding: 12px 30px 12px 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.601);
+    color: #ffffff;
+    font-size: 20px;
+}
+.form_auth_button:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
+::-webkit-input-placeholder {color:#3f3f44; padding-left: 10px;} 
+::-moz-placeholder          {color:#3f3f44; padding-left: 10px;} 
+:-moz-placeholder           {color:#3f3f44; padding-left: 10px;} 
+:-ms-input-placeholder      {color:#3f3f44; padding-left: 10px;}
+
+.login-input-wrapper label{
+  display: block;
+  margin-left: 25%;
+  font-size: 1rem; 
+  line-height: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: text;
+  opacity: 0.9;   
+  margin-bottom: 5px;
+  
+}
+.form_register_recovery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.form_recovery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.form_auth_block_content img{
+  width: 50px;
+  height: 50px;
+  margin-top: 30%;
+
+  
+}
+.container_reg{
+    display: flex;
+    justify-content: space-between;
+}
+.form_div3_reg{
+  width: 50px;
+  height: 50px;
+  
+}
+.form_auth_block a{
+  text-decoration: none;
+}
+
